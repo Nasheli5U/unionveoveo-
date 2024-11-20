@@ -1,0 +1,66 @@
+/* Estilos para el carrusel */
+
+.slider {
+    position: relative;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.main-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.thumbnails .thumbnail {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.thumbnails .thumbnail:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+/* Controles de navegación */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 3px;
+    -webkit-user-select: none; /* Compatibilidad con Safari */
+    user-select: none;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+

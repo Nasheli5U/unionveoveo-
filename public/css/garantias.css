@@ -1,0 +1,82 @@
+/* Estilo básico para la página de garantías */
+.container {
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #555;
+    margin-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.garantia-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.garantia-item .icon {
+    flex: 0 0 50px;
+    margin-right: 20px;
+}
+
+.garantia-item .icon img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.garantia-item .garantia-info {
+    flex: 1;
+}
+
+.garantia-item .garantia-info h2 {
+    color: #444;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+/* Efecto hover sobre los iconos */
+.garantia-item .icon img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos para iconos */
+.garantia-item .icon img {
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+.garantia-item .icon img:hover {
+    background-color: #007bff;
+    border-color: #0056b3;
+}
+
+/* Resaltar la información al pasar el ratón */
+.garantia-item .garantia-info ul li:hover {
+    color: #007bff;
+    cursor: pointer;
+}

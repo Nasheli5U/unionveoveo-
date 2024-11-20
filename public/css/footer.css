@@ -1,0 +1,157 @@
+/* Estilos generales del pie de página */
+footer {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #e2dede;
+}
+
+/* Parte superior del pie de página */
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background: linear-gradient(to right, #e0aaff, #7e369d); /* Morado claro a oscuro */
+    border-bottom: 2px solid #d1c4e9;
+}
+
+.footer-logo img {
+    width: 120px; /* Ajusta el tamaño del logo */
+    transition: transform 0.3s ease;
+}
+
+.footer-logo img:hover {
+    transform: scale(1.1); /* Efecto hover */
+}
+
+.subscription {
+    text-align: center;
+}
+
+.subscription p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.subscription button {
+    background-color: #e91e63; /* Rosado vibrante */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subscription button:hover {
+    background-color: #d81b60; /* Rosado oscuro */
+}
+
+.payment-options img {
+    width: 40px;
+    margin-right: 15px;
+    transition: transform 0.3s ease;
+}
+
+.payment-options img:hover {
+    transform: scale(1.1); /* Efecto hover en los métodos de pago */
+}
+
+/* Sección principal del pie de página */
+.footer-main {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 30px;
+    background-color: #070101;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 10px;
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    color: #77259b; /* Morado */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #646161;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #8e44ad; /* Morado */
+}
+
+/* Efectos para los iconos de redes sociales */
+.social-icon-1 img,
+.social-icon-2 img,
+.social-icon-3 img,
+.social-icon-4 img {
+    opacity: 0.7; /* Opacidad inicial */
+    transition-duration: 0.5s; /* Duración de la transición */
+    transition-delay: 0.2s; /* Retraso antes de la transición */
+}
+
+.social-icon-1:hover img,
+.social-icon-2:hover img,
+.social-icon-3:hover img,
+.social-icon-4:hover img {
+    opacity: 1; /* Aumenta la opacidad al pasar el ratón */
+    transform: scale(1.1); /* Escala el icono ligeramente para darle un efecto visual */
+}
+
+.social-icon-1,
+.social-icon-2,
+.social-icon-3,
+.social-icon-4 {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0); /* Fondo transparente */
+    border-radius: 50%; /* Bordes redondeados */
+    transition-duration: 0.4s; /* Transición para el fondo */
+}
+
+.social-icon-1:hover,
+.social-icon-2:hover,
+.social-icon-3:hover,
+.social-icon-4:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Fondo suave al pasar el ratón */
+}
+
+/* Opcional: Ajusta el tamaño de los iconos */
+.social-icon-1 img,
+.social-icon-2 img,
+.social-icon-3 img,
+.social-icon-4 img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Transición adicional para iconos al ser seleccionados */
+.social-icon-1-1 {
+    transition-duration: 0.4s;
+    background-color: rgb(0, 0, 0, 0); /* Fondo transparente */
+}
+
+
+

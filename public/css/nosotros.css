@@ -1,0 +1,112 @@
+/* --------------------------------------------------------- */
+/* Estilos para la estructura general de la página Nosotros */
+/* --------------------------------------------------------- */
+
+/* Contenedor principal con padding y fondo */
+.container {
+    padding: 30px;
+    background-color: #f9f9f9; /* Fondo de color gris suave */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* --------------------------------------------------------- */
+/* Estilos para los títulos principales h1, h2 y h5 */
+/* --------------------------------------------------------- */
+
+/* Estilo para los títulos principales h1 y h2 */
+h1, h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    color: #2a7d8e; /* Color azul suave para títulos */
+}
+
+/* Estilo para subtítulos h5 */
+h5 {
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+    color: #333; /* Color oscuro para subtítulos */
+}
+
+/* --------------------------------------------------------- */
+/* Estilos para el texto */
+.text-muted {
+    color: #6c757d; /* Color gris para textos secundarios */
+}
+
+.text-primary {
+    color: #2a7d8e; /* Azul suave para textos importantes */
+}
+
+/* --------------------------------------------------------- */
+/* Estilos para la sección de Misión y Visión */
+/* --------------------------------------------------------- */
+.row.mb-4 h2 {
+    font-size: 1.5rem; /* Tamaño de fuente para el título */
+}
+
+.row.mb-4 p {
+    font-size: 1.1rem; /* Tamaño de fuente para el párrafo */
+}
+
+/* --------------------------------------------------------- */
+/* Estilos para la sección de Años de experiencia */
+/* --------------------------------------------------------- */
+.row.my-5 h2 {
+    font-size: 2rem; /* Tamaño grande para los títulos */
+}
+
+.row.my-5 p {
+    font-size: 1.1rem; /* Tamaño moderado para los párrafos */
+}
+
+/* --------------------------------------------------------- */
+/* Estilos para las tarjetas */
+.card {
+    border: 0; /* Elimina borde */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave para profundidad */
+    transition: transform 0.3s ease; /* Efecto suave de escala al hacer hover */
+}
+
+/* Efecto de hover en las tarjetas */
+.card:hover {
+    transform: scale(1.05); /* Aumenta el tamaño de la tarjeta ligeramente al pasar el ratón */
+}
+
+/* --------------------------------------------------------- */
+/* Estilos para la sección de Videos / Blog */
+/* --------------------------------------------------------- */
+.video-embed iframe {
+    border-radius: 8px;
+    transition: transform 0.3s ease; /* Efecto suave al hacer hover */
+}
+
+/* Efecto de agrandamiento en el iframe de video */
+.video-embed iframe:hover {
+    transform: scale(1.05); /* Aumenta el tamaño del video ligeramente al pasar el ratón */
+}
+
+/* --------------------------------------------------------- */
+/* Estilos para los especialistas */
+img.rounded-circle {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #2a7d8e; /* Borde alrededor de la imagen */
+}
+
+/* --------------------------------------------------------- */
+/* Animación */
+.animate__animated {
+    animation-duration: 1s;
+}
+
+@media (max-width: 768px) {
+    .row.my-5 {
+        margin-top: 30px;
+    }
+
+    .col-md-4 {
+        margin-bottom: 20px;
+    }
+}
